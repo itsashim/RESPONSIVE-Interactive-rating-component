@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: #141519;
+}
+.sec {
+  background-color: #1f2630;
+  width: 340px;
+  margin: 3rem auto;
+  border-radius: 1.4rem;
+  padding: 0 2rem;
+}
+
+.icon-star {
+  background-color: #242f35;
+  border-radius: 50%;
+  padding: 1rem;
+  margin: 1.5rem 0;
+}
+.head {
+  margin: 0 0 1.5rem 0;
+  color: aliceblue;
+}
+.para {
+  color: #666d77;
+  margin: 0 0 1.5rem 0;
+}
+.flex {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+
+.flex > button {
+  border: none;
+  color: #666d77;
+  padding: 1rem 1.2rem;
+  background-color: #242f35;
+  border-radius: 50%;
+  margin-left: 0.8rem;
+}
+.flex > button:hover {
+  cursor: pointer;
+  background-color: #1d242e;
+}
+.one {
+  margin-left: 0 !important;
+}
+.btn {
+  margin: 0 0 2rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  border: none;
+  border-radius: 1.6rem;
+  background-color: #f97717;
+  color: aliceblue;
+  padding: 1rem 6rem;
+}
+.btn:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+  background-color: white;
+  color: #1d242e;
+  cursor: pointer;
+}
+.sec2 {
+  border-radius: 1.4rem;
+  padding: 2.2rem 0 1.1rem 0;
+  width: 340px;
+  background-color: #1d242e;
+  margin: 4rem auto;
+  text-align: center;
+}
+.icon-mob {
+  margin: 1rem 0 1rem 0;
+}
+
+.sec2-elementp {
+  display: inline-block;
+  color: #f97717;
+  background-color: #292d35;
+  width: 54%;
+  border-radius: 100px;
+  padding: 0.4rem 0;
+  text-align: center;
+  margin: 0 0 1.3rem 0;
+}
+.sec2-thank {
+  margin: 0 0 0.4rem 0;
+}
+.parap {
+  color: #666d77;
+  margin: 0 0 1.5rem 0;
+}
+
+.hide {
+  display: none;
+}
